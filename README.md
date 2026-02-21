@@ -49,9 +49,16 @@ npx qiita new 記事のタイトル
 
 `public/`ディレクトリに新しい記事ファイルが生成されます。
 
-### 記事の公開
+### 記事の公開/下書き設定
 
-`main`または`master`ブランチにプッシュすると、GitHub Actionsが自動的に記事をQiitaに公開します。
+記事のフロントマターで公開状態を制御できます：
+
+- `private: false` - 公開記事
+- `private: true` - 限定共有記事（下書き状態）
+
+新規作成した記事はデフォルトで下書き状態です。公開する場合は、記事内の`private`フィールドを`false`に変更してください。
+
+`main`または`master`ブランチにプッシュすると、GitHub Actionsが自動的に記事をQiitaに反映します。
 
 ```bash
 git add .
