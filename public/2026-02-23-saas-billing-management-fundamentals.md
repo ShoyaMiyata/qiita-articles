@@ -1,14 +1,14 @@
 ---
 title: 【SaaSビジネスの基礎】課金モデル・管理システム・法務の基本を理解しよう
 tags:
+  - stripe
+  - 課金
   - SaaS
   - サブスクリプション
   - Zuora
-  - Stripe
-  - 課金
 private: true
-updated_at: '2026-02-23T00:00:00+09:00'
-id: null
+updated_at: '2026-02-24T16:44:42+09:00'
+id: eb33e73c80494ebbfbbd
 organization_url_name: null
 slide: false
 ignorePublish: false
